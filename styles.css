@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(135deg, #0d47a1, #1e1e1e);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    color: #e0e0e0 !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #e0e0e0 !important;
+    margin: 0 1em;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #bb86fc !important;
+}
+
+main {
+    max-width: 1200px;
+    margin: 5vh auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.welcome-section {
+    flex: 1;
+    position: relative;
+    max-width: 65%;
+}
+
+.carousel-inner {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 1em;
+}
+
+h1 {
+    color: #bb86fc;
+}
+
+p {
+    color: #b0b0b0;
+}
+
+form {
+    flex: 0 0 30%;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 2em;
+}
+
+form .form-control {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    border: 1px solid #444444;
+}
+
+form .form-control:focus {
+    background-color: #333333;
+    color: #e0e0e0;
+    border-color: #bb86fc;
+}
+
+form button {
+    background-color: #bb86fc;
+    border: none;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #a370c9;
+}
+
+footer {
+    background: linear-gradient(135deg, #1e1e1e, #0d47a1);
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
+    padding: 1rem 0;
+}
